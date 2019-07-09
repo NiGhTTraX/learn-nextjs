@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Link from 'next/link';
 
 interface IndexProps {
   foo: string;
@@ -16,6 +17,9 @@ export default class Index extends Component<IndexProps> {
   render() {
     return <div>
       Hello {this.props.foo}!!!
+      <Link href="/about">
+          <a>About</a>
+      </Link>
     </div>;
   }
 }
