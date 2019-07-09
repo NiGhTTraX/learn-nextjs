@@ -1,0 +1,23 @@
+{
+  "name": "learn-nextjs",
+  "version": "1.0.0",
+  "description": "Learning Next.js",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "start:dev": "next dev"
+  },
+  "author": "Andrei Picus",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react-dom": "~16.8.4",
+    "next": "~9.0.0",
+    "react": "~16.8.6",
+    "react-dom": "~16.8.6"
+  },
+  "devDependencies": {
+    "@types/node": "~12.6.1",
+    "@types/react": "~16.8.23",
+    "typescript": "~3.5.3"
+  }
+}
