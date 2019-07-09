@@ -17,6 +17,7 @@
     "@types/react-dom": "~16.8.4",
     "next": "~9.0.0",
     "react": "~16.8.6",
+    "react-connect-state": "~4.0.0",
     "react-dom": "~16.8.6"
   },
   "devDependencies": {
